@@ -17,4 +17,12 @@ export default defineNuxtConfig({
     },
   },
   modules: ['@nuxtjs/tailwindcss'],
+  app: {
+    head: {
+      title: 'HTTP GURU',
+      meta: [
+        { name: 'description', content: 'Strona o statusach :D'}
+      ],
+    }
+  }
 });
