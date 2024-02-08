@@ -5,7 +5,16 @@
 </template>
 
 <script setup>
+definePageMeta({
+    layout: 'default'
+})
 
+useHead({
+    title: 'HTTP Guru | Statusy',
+    meta: [
+        { name: 'description', content: 'Fajna strona :D' }
+    ]
+})
 </script>
 
 <style lang="scss" scoped></style>
