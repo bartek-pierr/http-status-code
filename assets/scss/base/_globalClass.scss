@@ -3,3 +3,12 @@
     margin: 0 auto;
     width: 100%;
 }
+
+#menu {
+    display: none;
+    transition: all 0.3s ease;
+}
+
+#menu.active {
+    display: block;
+}
